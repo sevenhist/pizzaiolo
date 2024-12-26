@@ -1,0 +1,22 @@
+@import "src/scss/constans.scss";
+
+.header {
+    left: 0;
+    width: 100%;
+    height: toRem(208);
+    padding-top: toRem(19);
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        row-gap: toRem(30);
+        & h2 {
+            color: $orangeColor;
+            font-size: toRem(32);
+            @media(max-width: $mobileSmall) {
+                font-size: toRem(24);
+            }
+        }
+    }
+}

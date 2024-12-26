@@ -1,0 +1,21 @@
+@import "src/scss/constans.scss";
+
+
+.notFound {
+    display: flex;
+    flex-direction: column;
+    row-gap: toRem(30);
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    a {
+        color: $orangeColor;
+        font-size: toRem(20);
+        &:hover, &:active {
+            text-decoration: underline;
+        }
+    }
+    p {
+        font-size: toRem(32);
+    }
+}

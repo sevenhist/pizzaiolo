@@ -1,0 +1,14 @@
+@import "src/scss/constans.scss";
+
+.logo {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+    &__icon {
+        width: toRem(126);
+        height: toRem(100);
+        object-fit: contain;
+    }
+}

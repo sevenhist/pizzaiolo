@@ -1,0 +1,80 @@
+@import "src/scss/constans.scss";
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: toRem(50);
+    justify-content: space-between;
+    gap: toRem(30);
+    padding-bottom: toRem(50);
+    .product {
+        &__block {
+            display: grid;
+            grid-template-columns: 40% 60%; 
+            max-height: toRem(200);
+            min-height: toRem(180);
+            background-color: $whiteColor;
+            flex-basis: calc(50% - toRem(15));
+            box-sizing: border-box;
+            border-radius: toRem(30);
+            overflow: hidden;
+            @media (max-width: $tablet) {
+                flex-basis: 100%;
+                grid-template-columns: 30% 70%; 
+            }
+            @media (max-width: $mobile) {
+                grid-template-columns: 35% 75%; 
+            }
+            @media (max-width: $mobileSmall) {
+                grid-template-columns: 50% 50%; 
+            }
+        }
+    
+        &__img {
+            img {
+                width: 100%; 
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    
+        &__desc {
+            padding: toRem(15) toRem(6);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h1 {
+                font-size: toRem(22);
+            }
+            span {
+                display: flex;
+                justify-content: right;
+                color: $greenColor;
+                font-size: toRem(22);
+            }
+        }
+    
+        &__properties {
+            display: flex;
+            flex-direction: column;
+            row-gap: toRem(10);
+    
+            p {
+                overflow: hidden; 
+                white-space: nowrap; 
+                text-overflow: ellipsis; 
+                max-width: toRem(300);
+                font-size: toRem(14);
+                color: $greyTextColor;
+            }
+    
+        }
+    }
+}
+
+.loader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: toRem(560);
+    color: $orangeColor;
+}

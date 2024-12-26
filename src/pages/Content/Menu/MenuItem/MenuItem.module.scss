@@ -1,0 +1,76 @@
+@import "src/scss/constans.scss";
+
+.menu__block {
+    display: flex;
+    align-items: center;
+    column-gap: toRem(6);
+    background-color: $whiteColor;
+    padding: toRem(5) toRem(12);
+    border-radius: toRem(25);
+    overflow: hidden;
+    box-sizing: border-box;
+    @media (max-width: 1084px) {
+        &__text {
+            margin-right: toRem(10);
+        }
+        &__text_des {
+            margin-right: toRem(5);
+        }
+        p {
+            font-size: toRem(18);
+        }
+    }
+    &__active {
+        background-color: $orangeColor;
+        transition: all 0.5s ease;
+        p {
+            color: $whiteColor;
+            display: flex;
+        }
+        .menu__block__icon {
+            background-color: $whiteBackground;
+        }
+    }
+    &:hover,
+    &:active {
+        background-color: $orangeColor;
+        transition: all 0.5s ease;
+        p {
+            color: $whiteColor;
+            display: flex;
+        }
+        .menu__block__icon {
+            background-color: $whiteBackground;
+        }
+    }
+    &__text {
+        margin-right: toRem(49);
+    }
+    &__text_des {
+        margin-right: toRem(10);
+    }
+    p {
+        font-size: toRem(22);
+        font-weight: 700;
+    }
+    &__icon {
+        background-color: $greyColor;
+        border-radius: toRem(50);
+        padding: toRem(5) toRem(10);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        box-sizing: border-box;
+        img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: toRem(32);
+            height: toRem(32);
+        }
+        &__dessert {
+            margin-right: toRem(5);
+        }
+    }
+}
