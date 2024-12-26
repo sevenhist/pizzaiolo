@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpizzeria=self.webpackChunkpizzeria||[]).push([[902],{902:(e,s,i)=>{i.r(s),i.d(s,{default:()=>z});var r=i(555),l=i(986),a=i(579);const c=(0,i(793).A)((()=>Promise.all([i.e(248),i.e(137)]).then(i.bind(i,248)))),n=["size","color"],o="_main_15rz8_1",z=e=>{let{size:s="24",color:i="blue500"}=e,z=(0,l.A)(e,n);return(0,a.jsx)("div",{className:o,children:(0,a.jsx)(c,(0,r.A)({size:s,color:i},z))})}}}]);
+//# sourceMappingURL=902.c1e87285.chunk.js.map

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pizzaiolo/static/css/main.f1132282.css",
+    "main.js": "/pizzaiolo/static/js/main.c4afb0b9.js",
+    "static/css/902.7a2c7e1b.chunk.css": "/pizzaiolo/static/css/902.7a2c7e1b.chunk.css",
+    "static/js/902.c1e87285.chunk.js": "/pizzaiolo/static/js/902.c1e87285.chunk.js",
+    "static/css/137.aa5e8c92.chunk.css": "/pizzaiolo/static/css/137.aa5e8c92.chunk.css",
+    "static/js/248.97104d47.chunk.js": "/pizzaiolo/static/js/248.97104d47.chunk.js",
+    "static/media/dessert__icon.svg": "/pizzaiolo/static/media/dessert__icon.db4b5e167b69b1b4ee683479a7b87fbb.svg",
+    "static/media/LOGO_Kopie.jpg": "/pizzaiolo/static/media/LOGO_Kopie.059b1598e239ff83d1d5.jpg",
+    "static/media/pizza_label.png": "/pizzaiolo/static/media/pizza_label.0da43c690a31ed5375c5.png",
+    "static/media/pizza__icon.svg": "/pizzaiolo/static/media/pizza__icon.7801a04ace1ca89161a095a35bddd9ac.svg",
+    "static/media/Search.svg": "/pizzaiolo/static/media/Search.b324e1e62b7f66d37bceb4a7e9a9fac4.svg",
+    "index.html": "/pizzaiolo/index.html",
+    "main.f1132282.css.map": "/pizzaiolo/static/css/main.f1132282.css.map",
+    "main.c4afb0b9.js.map": "/pizzaiolo/static/js/main.c4afb0b9.js.map",
+    "902.7a2c7e1b.chunk.css.map": "/pizzaiolo/static/css/902.7a2c7e1b.chunk.css.map",
+    "902.c1e87285.chunk.js.map": "/pizzaiolo/static/js/902.c1e87285.chunk.js.map",
+    "137.aa5e8c92.chunk.css.map": "/pizzaiolo/static/css/137.aa5e8c92.chunk.css.map",
+    "248.97104d47.chunk.js.map": "/pizzaiolo/static/js/248.97104d47.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1132282.css",
+    "static/js/main.c4afb0b9.js"
+  ]
+}
