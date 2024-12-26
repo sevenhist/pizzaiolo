@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pizzaiolo/static/css/main.f1132282.css",
-    "main.js": "/pizzaiolo/static/js/main.c4afb0b9.js",
+    "main.js": "/pizzaiolo/static/js/main.b2c154d1.js",
     "static/css/902.7a2c7e1b.chunk.css": "/pizzaiolo/static/css/902.7a2c7e1b.chunk.css",
     "static/js/902.c1e87285.chunk.js": "/pizzaiolo/static/js/902.c1e87285.chunk.js",
     "static/css/137.aa5e8c92.chunk.css": "/pizzaiolo/static/css/137.aa5e8c92.chunk.css",
@@ -13,7 +13,7 @@
     "static/media/Search.svg": "/pizzaiolo/static/media/Search.b324e1e62b7f66d37bceb4a7e9a9fac4.svg",
     "index.html": "/pizzaiolo/index.html",
     "main.f1132282.css.map": "/pizzaiolo/static/css/main.f1132282.css.map",
-    "main.c4afb0b9.js.map": "/pizzaiolo/static/js/main.c4afb0b9.js.map",
+    "main.b2c154d1.js.map": "/pizzaiolo/static/js/main.b2c154d1.js.map",
     "902.7a2c7e1b.chunk.css.map": "/pizzaiolo/static/css/902.7a2c7e1b.chunk.css.map",
     "902.c1e87285.chunk.js.map": "/pizzaiolo/static/js/902.c1e87285.chunk.js.map",
     "137.aa5e8c92.chunk.css.map": "/pizzaiolo/static/css/137.aa5e8c92.chunk.css.map",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.f1132282.css",
-    "static/js/main.c4afb0b9.js"
+    "static/js/main.b2c154d1.js"
   ]
 }
