@@ -2,7 +2,8 @@
 {
   "short_name": "pizzaiolo App",
   "name": "pizzaiolo",
-  "start_url": "/",
+  "start_url": "/pizzaiolo/",
+  "scope": "/pizzaiolo/",
   "display": "standalone",
   "display_override": ["fullscreen", "minimal-ui", "window-controls-overlay"],
   "theme_color": "#ff9921",
