@@ -39,8 +39,8 @@ export const FoodList = () => {
     return (
         <div className={s.products}>
             {
-                filteredFoodList?.map((currentItem) => (
-                    <div className={s.product__block}>
+                filteredFoodList?.map((currentItem, index) => (
+                    <div className={s.product__block} key={index}>
                         <div className={s.product__img}>
                             <img src={currentItem?.img} alt="image" />
                         </div>

@@ -4,4 +4,5 @@
 3. yarn add react-router-dom
 4. yarn add axios
 5. yarn add zustand
-6. yarn start
+6. yarn add  workbox-webpack-plugin
+7. yarn start
