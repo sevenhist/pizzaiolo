@@ -19,4 +19,28 @@
             }
         }
     }
+    &__basket {
+        right: 0;
+        height: toRem(10);
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        justify-content: right;
+        row-gap: toRem(30);
+
+    }
+
 }
+// .basket {
+//     right: 0;
+//     height: toRem(208);
+//     padding-top: toRem(19);
+//     &__icon {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: right;
+//         justify-content: right;
+//         row-gap: toRem(30);
+
+//     }
+// }
