@@ -9,9 +9,8 @@ export const Header = () => {
                 <Logo />
                 <h2>Welcome to Pizzaiolo!</h2>
             </div>
-            <div className={s.basket}>
-                <img src="../../../img/basket.png"></img>
-                <button className={s.basket_icon}>
+            <div className={s.header__basket}>
+                <button className={s.heder__bicon}>
                     <img src={basket} alt="basket" />
                 </button>
             </div>
