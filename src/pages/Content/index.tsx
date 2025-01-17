@@ -2,6 +2,8 @@ import { Header } from "components/Header"
 import s from "./Content.module.scss"
 import pizza  from "../../img/pizza_label.png"
 import { Menu } from "./Menu"
+import { Footer } from "components/Footer"
+import { Logo } from "components/Logo"
 
 export const Content = () => {
     return (
@@ -25,6 +27,7 @@ export const Content = () => {
                 </div>
             </div>
             <Menu />
+            <Footer />
         </div>
     )
 }
