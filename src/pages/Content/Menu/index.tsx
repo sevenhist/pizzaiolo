@@ -2,6 +2,7 @@ import s from "./Menu.module.scss"
 import pizzaIcon from "../../../img/pizza__icon.svg"
 import dessert from "../../../img/dessert__icon.svg"
 import search from "../../../img/Search.svg"
+import drink from "../../../img/alcoholic-drink-svgrepo-com.svg"
 import { useState } from "react";
 import { IMenuItem, ItemActive } from "models/IMenuItem";
 import { MenuItem } from "./MenuItem";
@@ -22,6 +23,11 @@ export const Menu = () => {
             srcImg: dessert,
             name: "Dessert",
             itemActive: "dessert"
+        },
+        {
+            srcImg: drink,
+            name: "Drink",
+            itemActive: "drink"
         }
     ]
 

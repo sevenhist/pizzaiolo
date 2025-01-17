@@ -7,18 +7,25 @@
     background-color: $whiteColor;
     padding: toRem(5) toRem(12);
     border-radius: toRem(25);
+    max-width: toRem(200);
+    min-width: toRem(192);
     overflow: hidden;
     box-sizing: border-box;
     @media (max-width: 1084px) {
-        &__text {
-            margin-right: toRem(10);
-        }
         &__text_des {
             margin-right: toRem(5);
         }
         p {
             font-size: toRem(18);
         }
+    }
+    @media (max-width: $mobile) {
+        max-width: fit-content;
+        min-width:fit-content;
+        padding: toRem(5) toRem(12);
+    }
+    @media (max-width: $mobileSmall) {
+        min-width: toRem(192);
     }
     &__active {
         background-color: $orangeColor;
@@ -45,6 +52,9 @@
     }
     &__text {
         margin-right: toRem(49);
+        @media (max-width: $mobile) {
+            margin-right: toRem(5);
+        }
     }
     &__text_des {
         margin-right: toRem(10);
@@ -56,7 +66,8 @@
     &__icon {
         background-color: $greyColor;
         border-radius: toRem(50);
-        padding: toRem(5) toRem(10);
+        min-width: toRem(40);
+        min-height: toRem(30);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -66,8 +77,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: toRem(32);
-            height: toRem(32);
+            width: toRem(22);
+            height: toRem(22);
         }
         &__dessert {
             margin-right: toRem(5);
