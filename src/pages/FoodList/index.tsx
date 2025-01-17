@@ -51,7 +51,7 @@ export const FoodList = () => {
                                     {currentItem?.description}
                                 </p>
                             </div>
-                            <span>{currentItem?.price}$</span>
+                            <span>{currentItem?.price}€</span>
                         </div>
                     </div>
                 ))
