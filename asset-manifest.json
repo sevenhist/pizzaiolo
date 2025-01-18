@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pizzaiolo/static/css/main.801454e8.css",
-    "main.js": "/pizzaiolo/static/js/main.42df765e.js",
+    "main.css": "/pizzaiolo/static/css/main.b44fe7c3.css",
+    "main.js": "/pizzaiolo/static/js/main.a8ffc3a4.js",
     "static/css/902.7a2c7e1b.chunk.css": "/pizzaiolo/static/css/902.7a2c7e1b.chunk.css",
     "static/js/902.c1e87285.chunk.js": "/pizzaiolo/static/js/902.c1e87285.chunk.js",
     "static/css/137.aa5e8c92.chunk.css": "/pizzaiolo/static/css/137.aa5e8c92.chunk.css",
@@ -13,15 +13,15 @@
     "static/media/alcoholic-drink-svgrepo-com.svg": "/pizzaiolo/static/media/alcoholic-drink-svgrepo-com.1d19a6c53e5d874f030f09d3c1b7913b.svg",
     "static/media/Search.svg": "/pizzaiolo/static/media/Search.b324e1e62b7f66d37bceb4a7e9a9fac4.svg",
     "index.html": "/pizzaiolo/index.html",
-    "main.801454e8.css.map": "/pizzaiolo/static/css/main.801454e8.css.map",
-    "main.42df765e.js.map": "/pizzaiolo/static/js/main.42df765e.js.map",
+    "main.b44fe7c3.css.map": "/pizzaiolo/static/css/main.b44fe7c3.css.map",
+    "main.a8ffc3a4.js.map": "/pizzaiolo/static/js/main.a8ffc3a4.js.map",
     "902.7a2c7e1b.chunk.css.map": "/pizzaiolo/static/css/902.7a2c7e1b.chunk.css.map",
     "902.c1e87285.chunk.js.map": "/pizzaiolo/static/js/902.c1e87285.chunk.js.map",
     "137.aa5e8c92.chunk.css.map": "/pizzaiolo/static/css/137.aa5e8c92.chunk.css.map",
     "248.97104d47.chunk.js.map": "/pizzaiolo/static/js/248.97104d47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.801454e8.css",
-    "static/js/main.42df765e.js"
+    "static/css/main.b44fe7c3.css",
+    "static/js/main.a8ffc3a4.js"
   ]
 }
