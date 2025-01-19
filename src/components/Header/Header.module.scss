@@ -1,6 +1,7 @@
 @import "src/scss/constans.scss";
 
 .header {
+    display: flex;
     left: 0;
     width: 100%;
     height: toRem(208);
@@ -21,13 +22,21 @@
     }
     &__basket {
         right: 0;
-        height: toRem(10);
+        height: toRem(30);
         display: flex;
         flex-direction: column;
         align-items: right;
         justify-content: right;
-        row-gap: toRem(30);
-
+        // row-gap: toRem(30);
+        margin-left: auto;
+        padding-top: 10%;
+    }
+    &__icon {
+        height: toRem(40);
+        img {
+            height: toRem(40);
+            width: toRem(40);
+        }
     }
 
 }
