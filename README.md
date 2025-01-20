@@ -86,14 +86,15 @@ Demo: https://sevenhist.github.io/pizzaiolo/
 
 ### Built With
 
+* [![Typescript][TS.js]][TS-url]
 * [![React][React.js]][React-url]
 * [![Sass][Sass.js]][Sass-url]
-* [![Typescript][TS.js]][TS-url]
 * [![Zustand][Zustand.js]][Zustand-url]
+* [![Figma][Figma]][Figma-url]
 
 Backend:
 * [![Express][Express.js]][Express-url]
- 
+* [![Render][Render.js]][Render-url]
   
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,9 +155,9 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - email@email_client.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/sevenhist/pizzaiolo](https://github.com/sevenhist/pizzaiolo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,12 +188,19 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [TS-url]: https://www.typescriptlang.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+
+[Figma.js]: https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
+[Figma-url]: https://figma.com/
+
+
 [Express.js]: https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white
 [Express-url]: https://expressjs.com/
 
 [Zustand.js]: https://img.shields.io/badge/zustand-FFDD00?style=for-the-badge&logo=zustand&logoColor=black
 [Zustand-url]: https://zustand-demo.pmnd.rs/
 
+[Render.js]: https://img.shields.io/badge/render-0466D6?style=for-the-badge&logo=render&logoColor=white
+[Render-url]: https://render.com/
 
 
 
