@@ -103,7 +103,7 @@ Backend:
 
 * npm
   ```sh
-  npm install npm@latest -g
+  npm install -g yarn@latest
   ```
 
 ### Installation
@@ -116,7 +116,10 @@ Backend:
    ```sh
    yarn install
    ```
-<!-- 3. start the server -->
+3. start the server
+    ```sh
+   yarn start
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
