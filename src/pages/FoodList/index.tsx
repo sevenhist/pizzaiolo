@@ -1,4 +1,5 @@
 import useFoodStore from "modules/foodStore/store"
+import useBasketStore from "modules/basketStore/basket-store"
 import s from "./PizzaList.module.scss"
 import { useEffect, useMemo, useState } from "react"
 import { Loader } from "vibe-library"
@@ -14,6 +15,7 @@ export const FoodList = () => {
     const activeMenuItem = useFoodStore(store => store.activeMenuItem)
     const name = useFoodStore(store => store.activeMenuItemText)
     const currentSearch = useFoodStore(store => store.currentSearch)
+    const addItem = useBasketStore(store => store.addItem)
 
     useEffect(() => {
         getFoodList().catch((err) =>
@@ -30,6 +32,10 @@ export const FoodList = () => {
         );
     }, [foodList, currentSearch]);
 
+    const handleItemClick = (item: IFoodResponse) => {
+        addItem(item);
+    };
+
     if (isLoading) return (
         <div className={s.loader}>
             <Loader />
@@ -40,7 +46,7 @@ export const FoodList = () => {
         <div className={s.products}>
             {
                 filteredFoodList?.map((currentItem, index) => (
-                    <div className={s.product__block} key={index}>
+                    <div className={s.product__block} key={index} onClick={() => handleItemClick(currentItem)} style={{cursor: 'pointer'}}>
                         <div className={s.product__img}>
                             <img src={currentItem?.img} alt="image" />
                         </div>

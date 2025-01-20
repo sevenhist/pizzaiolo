@@ -2,6 +2,7 @@
 
 .header {
     display: flex;
+    justify-content: space-between;
     left: 0;
     width: 100%;
     height: toRem(208);
@@ -21,35 +22,87 @@
         }
     }
     &__basket {
-        right: 0;
-        height: toRem(30);
+        position: relative;
+        height: toRem(40);
         display: flex;
-        flex-direction: column;
-        align-items: right;
-        justify-content: right;
-        // row-gap: toRem(30);
+        align-items: flex-start;
         margin-left: auto;
-        padding-top: 10%;
+        padding-top: toRem(20);
     }
     &__icon {
+        position: relative;
         height: toRem(40);
+        width: toRem(40);
+        padding: 0;
+        background: none;
+        border: none;
+        cursor: pointer;
         img {
-            height: toRem(40);
-            width: toRem(40);
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
         }
     }
 
-}
-// .basket {
-//     right: 0;
-//     height: toRem(208);
-//     padding-top: toRem(19);
-//     &__icon {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: right;
-//         justify-content: right;
-//         row-gap: toRem(30);
+    &__badge {
+        position: absolute;
+        top: toRem(-8);
+        right: toRem(-8);
+        background-color: #ff4444;
+        color: white;
+        border-radius: 50%;
+        width: toRem(20);
+        height: toRem(20);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: toRem(12);
+    }
 
-//     }
-// }
+    &__popup {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        margin-top: toRem(8);
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: toRem(16);
+        min-width: toRem(250);
+        z-index: 1000;
+
+        h3 {
+            margin: 0 0 12px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 16px;
+
+            li {
+                padding: 8px 0;
+                border-bottom: 1px solid #eee;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+    &__confirm {
+        width: 100%;
+        padding: toRem(8);
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: toRem(4);
+        cursor: pointer;
+        transition: background-color 0.2s;
+
+        &:hover {
+            background-color: #45a049;
+        }
+    }
+}
