@@ -151,7 +151,7 @@ Project Link Backend: [https://github.com/sevenhist/pizza_backend](https://githu
 <img src="https://avatars.githubusercontent.com/u/145600785?v=4" alt="Avatar" width="30" height="30"> [HorCat](https://github.com/HorCat)  
 <img src="https://avatars.githubusercontent.com/u/146127262?v=4" alt="Avatar" width="30" height="30"> [gmzhn](https://github.com/gmzhn)  
 <img src="https://avatars.githubusercontent.com/u/146092910?v=4" alt="Avatar" width="30" height="30"> [Abolhassanlou](https://github.com/Abolhassanlou)  
-
+<img src="https://avatars.githubusercontent.com/u/146189846?v=4" alt="Avatar" width="30" height="30"> [yarakaiser](https://github.com/yarakaiser)  
 
 
 
