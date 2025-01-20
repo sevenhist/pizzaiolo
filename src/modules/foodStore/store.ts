@@ -22,6 +22,7 @@ interface FoodState {
     getCurrentDessert: (dessertId: string) => Promise<void>,
     getAllDesserts: () => Promise<void>,
     getFoodList: () => Promise<void>,
+    getAllDrinks: () => Promise<void>
 }
 
 const useFoodStore = create<FoodState>()(devtools(immer((set, get) => ({
@@ -87,12 +88,25 @@ const useFoodStore = create<FoodState>()(devtools(immer((set, get) => ({
             get().setIsLoading(false);
         }
     },
+    getAllDrinks: async () => {
+        get().setIsLoading(true);
+        try {
+            const response = await FoodService.getAllDrinks();
+            set({ foodList: response.data });
+        } catch (error: any) {
+            throw new Error(error.response?.data?.message || error.message);
+        } finally {
+            get().setIsLoading(false);
+        }
+    },
     getFoodList: async () => {
         get().setCurrentSearch("");
         if (get().activeMenuItem == "pizza") {
             get().getAllPizza();
         } else if (get().activeMenuItem == "dessert") {
             get().getAllDesserts();
+        } else if(get().activeMenuItem == "drink") {
+            get().getAllDrinks()
         }
     },
     setActiveMenuItemText: () =>
@@ -102,7 +116,7 @@ const useFoodStore = create<FoodState>()(devtools(immer((set, get) => ({
                 activeMenuItemText = 'Pizza';
             } else if (get().activeMenuItem === "dessert") {
                 activeMenuItemText = 'Dessert';
-            }
+            } 
             return { activeMenuItemText };
         })
 })), { name: 'foodStore', version: 1 }))

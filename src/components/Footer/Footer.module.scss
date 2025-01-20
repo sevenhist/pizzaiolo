@@ -1,5 +1,74 @@
 @import "src/scss/constans.scss";
 
 .footer {
- 
+
+   background: linear-gradient(180deg, #F8F4F1, #f9e6e6);;
+   margin: 0;
+   padding: 40px;
+    
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+      a {
+        color:$orangeColor;
+        text-decoration: none;
+      }
+    
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    &__logo {
+      margin-bottom: 20px;
+  
+    }
+  
+    &__sections {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      
+    }
+  
+    &__section {
+      flex: 1 1 30%; // Für Spaltenlayout
+      min-width: 200px;
+      text-align: center; 
+    }
+    // Responsive Design
+    @media (max-width:$mobile) {
+      &__sections {
+        gap: 10px; 
+      }
+  
+      &__section {
+        flex: 1 1 100%; 
+        min-width: unset; 
+        text-align: center; 
+      }
+  
+      &__content {
+        gap: 10px; 
+    }
+  
+    
+    @media (max-width: $mobileSmall) {
+      padding: 20px; 
+      &__sections {
+        gap: 5px; 
+      }
+  
+      &__section {
+        text-align: left; 
+      }
+    }
+  
+  }
 }

@@ -1,6 +1,7 @@
 export const MenuItems = {
     pizza: "Pizza",
-    dessert: "Dessert"
+    dessert: "Dessert",
+    drink: "Drink"
 }
 
 export type ItemActive = keyof typeof MenuItems
