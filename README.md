@@ -82,15 +82,15 @@ Demo: https://sevenhist.github.io/pizzaiolo/
 
 ### Built With
 
-* [![Typescript][TS.js]][TS-url]
+* [![Typescript][TS]][TS-url]
 * [![React][React.js]][React-url]
-* [![Sass][Sass.js]][Sass-url]
+* [![Sass][Sass]][Sass-url]
 * [![Zustand][Zustand.js]][Zustand-url]
 * [![Figma][Figma]][Figma-url]
 
 Backend:
 * [![Express][Express.js]][Express-url]
-* [![Render][Render.js]][Render-url]
+* [![Render][Render]][Render-url]
   
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -123,12 +123,12 @@ Backend:
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Feature
 
 - [ ] menu catalog
-    - [ ] pizza catalog
-    - [ ] drinks catalog
-    - [ ] dessert catalog
+    - [ ] pizza
+    - [ ] drinks
+    - [ ] desserts
 - [ ] search field
 - [ ] order button  
 - [ ] impressum  
@@ -164,27 +164,17 @@ Project Link Backend: [https://github.com/sevenhist/pizza_backend](https://githu
 [contributors-url]: https://github.com/sevenhist/pizzaiolo/graphs/contributors
 [contributors-shield2]: https://img.shields.io/github/contributors/sevenhist/pizza_backend.svg?style=for-the-badge
 [contributors-url2]: https://github.com/sevenhist/pizza_backend/graphs/contributors
-
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: public/LOGO_Name_Kopie.jpg
 
-[Sass.js]: https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+[Sass]: https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
 [Sass-url]: https://sass-lang.com/
-[TS.js]: https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
+[TS]: https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
 [TS-url]: https://www.typescriptlang.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 
-[Figma.js]: https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
+[Figma]: https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
 [Figma-url]: https://figma.com/
 
 
@@ -194,7 +184,7 @@ Project Link Backend: [https://github.com/sevenhist/pizza_backend](https://githu
 [Zustand.js]: https://img.shields.io/badge/zustand-FFDD00?style=for-the-badge&logo=zustand&logoColor=black
 [Zustand-url]: https://zustand-demo.pmnd.rs/
 
-[Render.js]: https://img.shields.io/badge/render-0466D6?style=for-the-badge&logo=render&logoColor=white
+[Render]: https://img.shields.io/badge/render-0466D6?style=for-the-badge&logo=render&logoColor=white
 [Render-url]: https://render.com/
 
 
