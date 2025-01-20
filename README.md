@@ -18,22 +18,21 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-
+## FE / BE [![Contributors][contributors-shield]][contributors-url] [![Contributors][contributors-shield2]][contributors-url2]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="public/icons/icon-96x96.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/sevenhist/pizzaiolo">
+    <img src="public/icons/icon-96x96.png" alt="Logo" width="90" height="90">
   </a>
 
 <h3 align="center">pizzaiolo website</h3>
 
   <p align="center">
-    project_description
+    Pizzaiolo is a product website for selling pizzas.
     <br />
     <!-- <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a> -->
     <br />
@@ -73,7 +72,13 @@
 
 [![Product Name Screen Shot][product-screenshot]]("public/icons/icon-96x96.png)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `email`, `project_title`, `project_description`
+Pizzaiolo is a product website for selling pizzas. It contains a product catalog for pizza dishes, desserts and drinks.  
+
+
+
+
+<!-- Backend Repository: https://github.com/sevenhist/pizza_backend   -->
+Demo: https://sevenhist.github.io/pizzaiolo/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,10 +131,11 @@ Javascri
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] pizza catalog
+- [x] drinks catalog
+- [x] dessert catalog
+    - [ ] search field
+- [ ] order button    
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -164,6 +170,9 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/sevenhist/pizzaiolo.svg?style=for-the-badge
 [contributors-url]: https://github.com/sevenhist/pizzaiolo/graphs/contributors
+[contributors-shield2]: https://img.shields.io/github/contributors/sevenhist/pizza_backend.svg?style=for-the-badge
+[contributors-url2]: https://github.com/sevenhist/pizza_backend/graphs/contributors
+
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
 [forks-url]: https://github.com/github_username/repo_name/network/members
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
