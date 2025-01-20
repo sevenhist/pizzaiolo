@@ -10,7 +10,6 @@
         &__block {
             display: grid;
             grid-template-columns: 40% 60%; 
-            max-height: toRem(200);
             min-height: toRem(180);
             background-color: $whiteColor;
             flex-basis: calc(50% - toRem(15));

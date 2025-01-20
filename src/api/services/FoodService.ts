@@ -14,4 +14,7 @@ export default class FoodService {
     static async getOneDessert(dessertId: string) {
         return $api.get<IFoodResponse>(`/desserts/${dessertId}`)
     }
+    static async getAllDrinks() {
+        return $api.get<Array<IFoodResponse>>(`/drinks`)
+    }
 }
