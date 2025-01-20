@@ -61,7 +61,7 @@
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#links">Links</a></li>
   </ol>
 </details>
 
@@ -74,10 +74,6 @@
 
 Pizzaiolo is a product website for selling pizzas. It contains a product catalog for pizza dishes, desserts and drinks.  
 
-
-
-
-<!-- Backend Repository: https://github.com/sevenhist/pizza_backend   -->
 Demo: https://sevenhist.github.io/pizzaiolo/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -129,7 +125,7 @@ Backend:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [menu catalog] menu catalog
+- [ ] menu catalog
     - [ ] pizza catalog
     - [ ] drinks catalog
     - [ ] dessert catalog
@@ -152,12 +148,11 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 
 
 
-<!-- CONTACT -->
-## Contact
+<!-- Links -->
+## Links
 
-Your Name - email@email_client.com
-
-Project Link: [https://github.com/sevenhist/pizzaiolo](https://github.com/sevenhist/pizzaiolo)
+Project Link Frontend: [https://github.com/sevenhist/pizzaiolo](https://github.com/sevenhist/pizzaiolo)  
+Project Link Backend: [https://github.com/sevenhist/pizza_backend](https://github.com/sevenhist/pizza_backend)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
