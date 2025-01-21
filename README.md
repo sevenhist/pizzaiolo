@@ -43,7 +43,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#features">Features</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#links">Links</a></li>
     <li><a href="#contributors">Contributors</a></li>    
@@ -110,8 +110,8 @@ Backend:
 
 
 
-<!-- ROADMAP -->
-## Feature
+<!-- FEATURES -->
+## Features
 
 - [ ] menu catalog
     - [ ] pizza
@@ -152,7 +152,7 @@ Project Link Backend: [https://github.com/sevenhist/pizza_backend](https://githu
 <img src="https://avatars.githubusercontent.com/u/146127262?v=4" alt="Avatar" width="30" height="30"> [gmzhn](https://github.com/gmzhn)  
 <img src="https://avatars.githubusercontent.com/u/146092910?v=4" alt="Avatar" width="30" height="30"> [Abolhassanlou](https://github.com/Abolhassanlou)  
 <img src="https://avatars.githubusercontent.com/u/146189846?v=4" alt="Avatar" width="30" height="30"> [yarakaiser](https://github.com/yarakaiser)  
-
+<img src="https://avatars.githubusercontent.com/u/146093677?v=4" alt="Avatar" width="30" height="30"> [rama-abuhlal](https://github.com/rama-abuhlal)  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
