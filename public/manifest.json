@@ -79,7 +79,7 @@
    "protocol_handlers": [
     {
       "protocol": "web+pizzaiolo",
-      "url": "/?action=%s"
+      "url": "/pizzaiolo/?action=%s"
     }
   ]
 }
